@@ -20,7 +20,7 @@ h4,h5,h6{font-size: 100%;}
 address,cite,dfn,em,var{font-style: normal;}
 code,kbd,pre,samp,tt{font-family: "Courier New", Courier, monospace;}
 small{font-size: 12px;}
-ul,ol{list-style: none;}
+ol{list-style: none;}
 a{text-decoration: none;cursor: pointer;}
 a:hover{text-decoration: none;color: #1093ee;}
 abbr[title],
@@ -29,7 +29,7 @@ q:before,
 q:after{content: '';}
 legend{color: #000;}
 fieldset,img{border: 0 none;height: auto !important;}
-img{vertical-align: top;}
+img{vertical-align: top;max-width: 100%;}
 button,input,select,textarea{font-size: 100%;vertical-align: middle;outline: 0;}
 input[type="button"]{cursor: pointer;}
 table{border-collapse: collapse;border-spacing: 0;}
@@ -41,6 +41,24 @@ i{font-style: normal;}
 .clearfix{zoom: 1;/* IE < 8 */}
 .fl{float: left}
 .fr{float: right;}
-.w90{width: 90%;margin: 0 auto;}
+.w90{width: 90%;margin: 0 auto;max-width: 1440px;}
+.w80{width: 80%;margin: 0 auto;}
+.w70{width: 70%;margin: 0 auto;}
 .clear10{height: 10px;clear: both;}
+.text-center{text-align: center;}
+</style>
+
+<style>
+  .title-h1{text-align: center;font-size: 32px;color: #e50012;font-weight: bolder;}
+  .title-h1 img{margin-right: 4px;}
+  .title-h2{text-align: center;margin:10px 0;font-size: 18px;}
+  .title-h3{color:#e50012;font-size: 18px;}
+  .sub-title{font-size: 24px;color: #e50012;font-weight: bolder;line-height: 40px;margin-top: 10px;}
+  .text{line-height:28px;font-size: 14px;color: #4a4949;}
+  .list li{line-height: 28px;font-size: 14px;position: relative; padding-left:20px;color: #4a4949;}
+  .list li:before{display:block;height: 7px;width: 7px;background-color:#e50012;border-radius: 100%;content: '';position:absolute;left:2px;top: 10px;}
+  .pro_list{}
+  .pro_list img{margin:10px 0;}
+  .pro_list h3{margin-bottom:5px;}
+  .pro_list p{width: 70%;margin:0 auto;}
 </style>

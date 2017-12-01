@@ -6,7 +6,9 @@ import router from './router'
 import { Button,
 	Select,
  	Container,
- 	Header} from 'element-ui'
+ 	Header,
+	Row,
+	Col,} from 'element-ui'
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
@@ -15,6 +17,8 @@ Vue.config.productionTip = false
  Vue.use(Select)
  Vue.use(Container)
  Vue.use(Header)
+ Vue.use(Row)
+ Vue.use(Col)
 
 Vue.directive('title', {
 	inserted: function(el, binding) {

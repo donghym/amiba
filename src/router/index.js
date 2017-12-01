@@ -1,7 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-
-import HelloWorld from '@/components/HelloWorld'
 import Coordination from '@/components/Coordination' //多组织协同
 import Assessment from '@/components/Assessment'	//利润考核
 
@@ -20,11 +18,6 @@ export default new Router({
       path: '/Assessment',
       name: 'Assessment',
       component: Assessment
-    },
-    {
-      path: '/Coordination',
-      name: 'Coordination',
-      component: Coordination
-    },
+    }
   ]
 })

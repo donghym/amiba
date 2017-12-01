@@ -26,8 +26,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .a-header{}
-  header{height: 30px;background-color: #3c3c3c;}
+header{height: 30px;background-color: #3c3c3c;}
   header p{height:inherit;color: #fff;text-align: right;}
   header p a{padding: 0 10px;line-height: 25px;}
   header p a:not(:last-child){border-right:#fff solid 1px;}
