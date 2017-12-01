@@ -3,20 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import { Button,
-	Select,
- 	Container,
- 	Header,
-	Row,
-	Col,} from 'element-ui'
+import { Row,Col} from 'element-ui'
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
-
- Vue.use(Button)
- Vue.use(Select)
- Vue.use(Container)
- Vue.use(Header)
  Vue.use(Row)
  Vue.use(Col)
 
