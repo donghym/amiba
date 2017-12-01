@@ -23,6 +23,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ### 多组织协同
 	amiba/dist/index.html#/
+	
 ###利润考核
 	./amiba/dist/index.html#/Assessment
 
